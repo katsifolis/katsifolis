@@ -1,12 +1,24 @@
-<html>
+---
+layout: default
+---
 
-<head>
-  <title>o x i l g k</title>
+<div class="header-bar">
+  <h1>O x i l g k</h1>
+  <h2>Vasilis Katsifolis</h2>
+  <br/>
+  <hr>
+  <br/>
+</div>
 
-<head>
 
-<body>
-
-</body>
-
-</html>
+<ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p>{{ post.description }}</p>
+        <br/>
+        <hr/>
+      </li>
+    {% endfor %}
+</ul>
