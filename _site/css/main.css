@@ -22,8 +22,8 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   font-weight: 100;
-  color: #666;
-  background-color: #fdfdfd;
+  color: #ddd;
+  background-color: #191919;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #666;
+  color: #ddd;
   text-decoration: none;
   /*
   &:visited {
@@ -81,11 +81,11 @@ a {
   }
   */ }
   a:hover {
-    color: #FF3636;
+    color: #8fc;
     text-decoration: none; }
 
 article a {
-  color: #FF3636;
+  color: #8fc;
   font-weight: 100; }
   article a:hover {
     text-decoration: none; }
@@ -93,15 +93,6 @@ article a {
 /**
  * Blockquotes
  */
-blockquote {
-  color: #666;
-  border-left: 10px solid #ddd;
-  padding-left: 25px;
-  font-size: 18px;
-  font-style: italic; }
-  blockquote > :last-child {
-    margin-bottom: 0; }
-
 /**
  * Code formatting
  */
@@ -109,7 +100,7 @@ pre,
 code {
   font-size: 15px;
   border-radius: 3px;
-  background-color: #ddd; }
+  background-color: #ffffff; }
 
 code {
   padding: 1px 5px; }
@@ -152,7 +143,7 @@ pre {
  */
 .site-header {
   border-bottom: 1px solid #ddd;
-  background-color: #fff;
+  background-color: #262626;
   opacity: 0.75;
   position: fixed;
   left: 0px;
@@ -168,7 +159,7 @@ pre {
   margin-bottom: 0; }
   .site-title:hover {
     text-decoration: none;
-    color: #FF3636; }
+    color: #8fc; }
 
 .site-nav {
   float: right;
@@ -202,7 +193,7 @@ pre {
   line-height: 3em;
   z-index: 25; }
   .header-bar h1 {
-    color: #FF3636;
+    color: #8fc;
     font-size: 75px; }
   .header-bar h2 {
     font-size: 25px; }
@@ -237,7 +228,7 @@ pre {
 .paginationicon {
   font-size: 50px; }
   .paginationicon a {
-    color: #FF3636; }
+    color: #8fc; }
 
 /**
  * Page content   **********************************************************
@@ -367,7 +358,7 @@ pre {
  * Portfolio pages **********************************************************
 */
 .blankbox {
-  background: #FF3636; }
+  background: #8fc; }
 
 .img_row {
   height: 275px;
@@ -398,7 +389,7 @@ pre {
 
 .caption {
   height: 100%;
-  color: #aaa;
+  color: #ddd;
   text-align: center;
   vertical-align: middle;
   font-size: 12px; }
@@ -407,7 +398,7 @@ pre {
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff; }
+  background: #000; }
   .highlight .c {
     color: #998;
     font-style: italic; }

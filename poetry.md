@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /poetry/
-title: poetry
-description: Showcase your writing, short stories, or poems. Replace this text with your description.
+title: writings
+description: the flesh covers the bone and they put a mind in there and sometimes a soul
 ---
 
 <ul class="post-list">

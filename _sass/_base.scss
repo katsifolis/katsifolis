@@ -21,24 +21,26 @@ $nav-height:                    56px;
 $img_spacing: 5px; 
 $img_height: 275px;
 $caption_font_size: 12px;
-$caption_color: #aaa;
+$caption_color: #ddd;
 
 /* COLORS  */
 $red:  #FF3636;
 $orange: #F29105;
 $blue: #2698BA;
 $green: #11D68B;
+$dark-green: #8fc;
 $lime_green: #B7D12A;
 $purple: #B509AC;
 
 
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #666;
+$text-color:     #ddd;
 
 /* Set theme color *************************/
-$theme-color:   $red;
-
+$theme-color:   $dark-green;
+$header-color: #262626;
+$background-color: #191919;
 
 /************************************************************/
 
@@ -149,17 +151,6 @@ article a {
 /**
  * Blockquotes
  */
-blockquote {
-    color: $text-color;
-    border-left: 10px solid $grey-color-light;
-    padding-left: $horizontal-spacing-unit / 2;
-    font-size: 18px;
-    font-style: italic;
-
-    > :last-child {
-        margin-bottom: 0;
-    }
-}
 
 
 
@@ -170,7 +161,7 @@ pre,
 code {
     font-size: 15px;
     border-radius: 3px;
-    background-color: $grey-color-light;
+    background-color: #ffffff;
 }
 
 code {
