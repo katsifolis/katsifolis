@@ -17,7 +17,7 @@ Here lies my personal Purgatory.
 <br/>
 <span class="contacticon center">
 	<a href="mailto:oxilgk@protonmail.com"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com" target="https://github.com/oxilgk/"><i class="fa fa-github-square"></i></a>
+	<a href="https://github.com/oxilgk" target="https://github.com/oxilgk/"><i class="fa fa-github-square"></i></a>
 </span>
 
 <div class="col three caption">
