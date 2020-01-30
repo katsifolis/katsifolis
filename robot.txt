@@ -1,2 +1,0 @@
-user-agent: *
-sitemap: https://www.oxilgk.github.io/
