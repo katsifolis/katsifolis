@@ -1,0 +1,38 @@
+* {
+  font-size: 18px;
+  overflow-x: hidden;
+  margin: auto;
+  text-align: center;
+  background-color: #444;
+}
+*::selection {
+  background: #333;
+}
+
+.header {
+  padding: 20px 20px;
+}
+
+a {
+  margin-top:50px;
+}
+
+
+a:link, a:visited, a:active { 
+  color: #000; outline: none;  text-decoration: none;
+}
+
+a:hover { color: #289; text-decoration: none;}
+
+p {
+  text-align: center;
+  margin: auto;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
