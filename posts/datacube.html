@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/mobile.css">
+  </head>
+  <div class="main">
+    <div class="sidebar">
+      <img alt="" src="/static/prof_pic1.png">
+      <ul>
+        <li style="white-space: nowrap;">Vasilis Katsifolis</li>
+        <li><a href="/about.html">me</a></li>
+        <li><a href="/posts.html">posts</a></li>
+        <li><a href="/code.html">code</a></li>
+      </ul>
+    </div>
+    <div class="content">
+<h3>A datacube implementation within my internship</h3>
+
+<p>My first internship was at the <em>National Observatory Of Athens</em>. At my first day visiting, we discussed about my capabilities and a fitting project for my experience.
+So we decided that I would implement a database for geospatial data. So the software that helped me achieve this goal was the <a href="https://www.opendatacube.org/">opendatacube</a>.
+The datacube is essentialy a postgreSQL database underneath. Taken straight from the website:</p>
+
+<blockquote>
+  <p>The Open Data Cube (ODC) is an Open Source Geospatial Data Management and Analysis Software project that helps you harness the power of Satellite data.</p>
+</blockquote>
+
+<p>I began by instantiating a VM in google's cloud engine, running ubuntu and following <a href="https://github.com/ceos-seo/data_cube_ui/blob/master/docs/old/open_data_cube_install.md">this great guide!</a>As soon as I finished up I received sampled .TIFF files <em>(Tagged Image File Format)</em> from my mentor to test out with the new setup. Now, to add the .tiff files to the datacube all you need to do is:</p>
+
+<ol>
+<li>Define the specification of the sentinel-1 spec or another satelite spec in yaml file.</li>
+<li>Define the desired metadata you want to extract from the dataset.</li>
+<li>If the .tiff file needs preprocessing run it through prep script.</li>
+<li>Add the dataset by pointing to the yaml file from step 2 or 3.</li>
+</ol>
+
+<p>Finally at the end I experimented with jupyter notebook and simple ml operations. You can find more of the work in my <a href="https://github.com/katsifolis/datacube_noa">repo</a></p>
+
+<p style="text-align:right"><em>--vik<em></p>
+</div>
+</div>
+</html>
+<!--<div class="footer">
+  <a class="right" href="mailto:vazkats@gmail.com">mail</a>
+  <a class="right" href="https://github.com/katsifolis" target="https://github.com/katsifolis/">github</a>
+  <br />
+  © 2021 vik
+  </div>->>
