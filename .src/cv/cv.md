@@ -10,19 +10,23 @@ ___
 
 ## Working Experience
 
-2020 (3 months)
+2020 (3m)
 
 : National Observatory of Athens - *Intern Data engineer*
 
 : I developed a database for storing satelite imagery/geospatial data. The process involved setting up a vm, deploying the database, writting trivial ml scripts to test out the data.
 
+2021 (3m - now)
+
+: Bluedot - *Full Stack Developer*
+
+: Full stack web development with .NET, SSMS, Angularjs.
+
 ## Education
 
 2016 - 2021
 
-: Harokopio University, Athens - *Undergraduate Student*
-
-: Currently writing my thesis.  
+: Harokopio University, Athens - Bachelor's Degree
 
 2019 (Erasmus)
 
@@ -35,24 +39,21 @@ ___
 * C2 (Michigan Proficiency in English)
 
 ## Software
-hexi
+Be - Binary Editor
 : is a command line hex editor written in the c programming language without having external dependencies + vim bindings.
-
-souls
-: is a 2d platformer game. currently being made with love2d and the lua programming language.
 
 ## Frameworks - Languages
 Os
-: Linux
+: Linux, Windows
 
 Frameworks
-: flask, expressjs, reactjs
+: Flask, ExpressJS, ReactJS, .NET
 
 Markup
 : html, css
 
 Languages
-: c, c++, java, go, lua, python, javascript, sql, bash
+: C, C++, C#, Java, Go, Lua, Python, Javascript, SQL, BASH
 
 ## Activities - Free Time
 * I really enjoy traveling and meeting new people.
