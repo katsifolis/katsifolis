@@ -39,7 +39,7 @@ ___
 * C2 (Michigan Proficiency in English)
 
 ## Software
-Be - Binary Editor
+Be
 : is a command line hex editor written in the c programming language without having external dependencies + vim bindings.
 
 ## Frameworks - Languages
