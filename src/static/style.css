@@ -1,5 +1,6 @@
 html {
-  font-family: Monaco;
+  color-scheme: dark light;
+  font-family: Courier New;
   border: 0;
   margin: 0;
   font-size: 18px;
@@ -42,10 +43,24 @@ ul {
 
 p {
   margin: 0;
+  margin-bottom: 10px;
 }
 
 a {
   text-align: left;
+}
+
+.video-container {
+	object-fit: cover;
+	text-align: center;
+}
+
+.video-container video {
+	width: 100%;
+	height: auto;
+	max-height: 320px;
+	margin-bottom: 10px;
+	
 }
 
 h1,h2,h3,h4,h5 {
