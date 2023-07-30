@@ -1,6 +1,7 @@
----
 title: Vasilis Katsifolis
----
+
+# Vasilis Katsifolis
+
 ___
 
 > Software Developer  
@@ -12,15 +13,15 @@ ___
 
 2020 (3m)
 
-: National Observatory of Athens - *Intern Data engineer*
+: National Observatory of Athens - __*Intern Data engineer*__
 
 : I developed a database for storing satelite imagery/geospatial data. The process involved setting up a vm, deploying the database, writting trivial ml scripts to test out the data.
 
-2021 (3m - now)
+2021 - os.time()
 
-: Bluedot - *Full Stack Developer*
+: Bluedot - __*Full Stack Developer*__
 
-: Full stack web development with .NET, SSMS, Angularjs.
+: Full stack web development with *.NET 4.5*, *MS SQL*, *AngularJS*.
 
 ## Education
 
@@ -35,8 +36,11 @@ ___
 : I did a semester within the erasmus program.
 
 ## Diplomas
-* ECDL (European Computer Driving License)
-* C2 (Michigan Proficiency in English)
+ECDL 
+: European Computer Driving License
+
+C2 
+: Michigan Proficiency in English
 
 ## Software
 Be
@@ -44,20 +48,21 @@ Be
 
 ## Frameworks - Languages
 Os
-: Linux, Windows
+: OpenBSD, Linux
 
-Frameworks
+Web Frameworks
 : Flask, ExpressJS, ReactJS, .NET
 
 Markup
 : html, css
 
 Languages
-: C, C++, C#, Java, Go, Lua, Python, Javascript, SQL, BASH
+: C, C++, C#, Go, Lua, Python, JS, MSSQL, Bash
 
-## Activities - Free Time
-* I really enjoy traveling and meeting new people.
-* Chess playing
-* Music - Guitar, Piano, Bouzouki
+Frontend Libraries
+: Bootstrap, JQuery
+
+Versioning Systems
+: TFS, Git
 
 ___

@@ -12,3 +12,5 @@ fi
 ssg=$(which ssg)
 
 $ssg . ../dist/ "vik" "http://www"
+
+lowdown -s -thtml cv/cv.md > cv/cv.html

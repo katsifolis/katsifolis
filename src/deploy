@@ -1,0 +1,2 @@
+rm -rf /var/www/htdocs/fithos/*
+cp -riv ../dist/* /var/www/htdocs/fithos/
