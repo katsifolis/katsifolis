@@ -1,44 +1,13 @@
-html {
-  color-scheme: dark light;
-  font-family: Courier New;
-  border: 0;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.sidebar {
-  width: 200px;
-  height: auto;
-  padding-top: 10px;
-  padding-right: 40px;
-}
-
-.content {
-  width: 800px;
-  display: inline;
-  text-align: left;
-}
-
-.main {
-  display: flex;
-  text-align: center;
-  padding-top: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-img {
-  max-width: 100px;
-  height: auto;
-}
-
 ul {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
   padding-left: 0;
   list-style: none;
   list-style-type: none;
+}
+
+li {
+	padding-right: 10px;
+
 }
 
 p {
@@ -50,33 +19,9 @@ a {
   text-align: left;
 }
 
-.video-container {
-	object-fit: cover;
-	text-align: center;
-}
-
-.video-container video {
-	width: 100%;
-	height: auto;
-	max-height: 320px;
-	margin-bottom: 10px;
-	
-}
-
 h1,h2,h3,h4,h5 {
   color: #555;
 }
-
-blockquote {
-  font-family: serif; /* Elegant right? */
-  background: #eee;
-  border-left: 5px solid #ccc;
-}
-/* This if for indenting after gray border-left */
-blockquote > p {
-  padding-left: 10px;
-}
-
 
 *::selection {
   background: #88C0D0;
@@ -88,3 +33,28 @@ a:link, a:visited, a:active {
 }
 
 a:hover { color: #289; text-decoration: none;}
+
+.prof_pic {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (prefers-color-scheme: dark){
+	body {color:#fff;background:#000}
+	a:link {color:#cdf}
+	a:hover, a:visited:hover {color:#def}
+	a:visited {color:#dcf}
+}
+body{
+	margin:1em auto;
+	max-width:40em;
+	padding:0 .62em;
+	font:1.2em/1.62 sans-serif
+}
+h1,h2,h3 {
+	line-height:1.2
+}
+@media print{
+	body{
+		max-width:none
+	}
+}

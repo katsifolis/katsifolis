@@ -1,4 +1,5 @@
 title: Vasilis Katsifolis
+css:cv.css
 
 # Vasilis Katsifolis
 
@@ -9,19 +10,19 @@ ___
 
 ___
 
-## Working Experience
+## Work Experience
+
+July 2021 - now
+
+: Bluedot - __*Full Stack Developer*__
+
+: Full stack web development with *.NET 4.5*, *MS SQL*, *AngularJS*.
 
 2020 (3m)
 
 : National Observatory of Athens - __*Intern Data engineer*__
 
 : I developed a database for storing satelite imagery/geospatial data. The process involved setting up a vm, deploying the database, writting trivial ml scripts to test out the data.
-
-2021 - os.time()
-
-: Bluedot - __*Full Stack Developer*__
-
-: Full stack web development with *.NET 4.5*, *MS SQL*, *AngularJS*.
 
 ## Education
 
